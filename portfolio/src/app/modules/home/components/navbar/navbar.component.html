@@ -1,0 +1,11 @@
+<mat-toolbar class="nav-bar d-flex justify-content-end">
+  <button mat-button [matMenuTriggerFor]="menu">Projects</button>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu" >
+  <button mat-menu-item>
+    <!-- <mat-icon>dialpad</mat-icon> -->
+    <app-button-image [image]="mortyAvatar"></app-button-image>
+    <span>Rick & Morty</span>
+  </button>
+</mat-menu>
