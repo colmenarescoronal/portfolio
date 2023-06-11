@@ -5,12 +5,16 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MaterialModule } from 'modules/material.module';
 import { ButtonImageComponent } from './components/button-image/button-image.component';
+import { RickAndMortyScreenComponent } from './components/rick-and-morty-screen/rick-and-morty-screen.component';
+import { RickAndMortyCharacterComponent } from './components/rick-and-morty-character/rick-and-morty-character.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     NavbarComponent,
-    ButtonImageComponent
+    ButtonImageComponent,
+    RickAndMortyScreenComponent,
+    RickAndMortyCharacterComponent
   ],
   imports: [
     CommonModule,
