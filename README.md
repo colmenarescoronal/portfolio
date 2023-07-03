@@ -1,2 +1,2 @@
 # Portfolio
-This is an Angular project to bring togheter my professional experience
+This is an Angular project for developing my professional experience portfolio.
