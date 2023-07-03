@@ -16,7 +16,7 @@
     line-height: 1.2;
     color:white;
     font-size: 1.25rem;
-    width: 95%;
+    width: 75%;
     text-align: center;
 }
 
@@ -26,10 +26,10 @@
 
 
 .center-vertically{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .parent{
