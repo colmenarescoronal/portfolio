@@ -1,0 +1,24 @@
+<div class="container">
+<div class="d-flex justify-content-end">
+  <mat-icon (click)="closeThisDialog()">cancel</mat-icon>
+</div>
+
+ <h1 mat-dialog-title>{{data?.character?.name}}</h1>
+
+ <mat-dialog-content>
+  <div class="details-container">
+    <img [src]="data?.character?.image" alt="character-image" height="200" width="200">
+    <section>
+      <p><span class="characteristic">Status: </span>{{data?.character?.status}}</p>
+      <p><span class="characteristic">Species: </span>{{data?.character?.species}}</p>
+      <p *ngIf="data?.character?.type"><span class="characteristic">Type: </span>{{data?.character?.type}}</p>
+      <p><span class="characteristic">Gender: </span>{{data?.character?.gender}}</p>
+    </section>
+  </div>
+ </mat-dialog-content>
+
+ <mat-dialog-actions>
+
+ </mat-dialog-actions>
+
+</div>

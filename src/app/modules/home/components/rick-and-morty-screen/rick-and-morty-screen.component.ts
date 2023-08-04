@@ -20,7 +20,6 @@ export class RickAndMortyScreenComponent implements OnInit {
       this.mainService.getMain('https://rickandmortyapi.com/api/character')
     )
       .then((response) => {
-        console.log(response);
         this.characters = response.results;
       })
       .catch((e) => {
