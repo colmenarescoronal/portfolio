@@ -1,6 +1,8 @@
 mat-card{
   width: 240px;
   height: 272px;
+  background: none;
+  box-shadow: none !important;
 
   cursor: pointer;
 
@@ -16,10 +18,15 @@ mat-card{
 }
 
 h1{
-  color: green;
+  color: rgb(241, 243, 241);
   text-align: center;
 }
 
 img{
   border-radius: 50%;
+  border: 2px solid #ffeb00;
+}
+
+mat-dialog-container{
+  background-color: #19191a !important;
 }
