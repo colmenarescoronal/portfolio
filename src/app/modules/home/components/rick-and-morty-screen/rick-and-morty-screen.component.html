@@ -2,3 +2,8 @@
   Rick <span>and</span> Morty<br>
   <span class="subtitle">Project</span>
 </h1>
+
+<section class="characters-container">
+  <app-rick-and-morty-character [character]="character" *ngFor="let character of characters"></app-rick-and-morty-character>
+</section>
+

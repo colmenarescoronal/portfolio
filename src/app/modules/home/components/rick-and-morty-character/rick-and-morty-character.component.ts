@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-rick-and-morty-character',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rick-and-morty-character.component.scss']
 })
 export class RickAndMortyCharacterComponent implements OnInit {
+
+  @Input() character: any;
 
   constructor() { }
 

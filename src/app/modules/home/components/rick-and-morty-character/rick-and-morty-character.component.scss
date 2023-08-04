@@ -1,0 +1,25 @@
+mat-card{
+  width: 240px;
+  height: 272px;
+
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  &:hover{
+    transform: scale(1.01);
+  }
+}
+
+h1{
+  color: green;
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+}
