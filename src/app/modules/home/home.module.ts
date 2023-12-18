@@ -8,6 +8,8 @@ import { ButtonImageComponent } from './components/button-image/button-image.com
 import { RickAndMortyScreenComponent } from './components/rick-and-morty-screen/rick-and-morty-screen.component';
 import { RickAndMortyCharacterComponent } from './components/rick-and-morty-character/rick-and-morty-character.component';
 import { DialogRickAndMortyCharacterDetailsComponent } from './components/dialog-rick-and-morty-character-details/dialog-rick-and-morty-character-details.component';
+import { DeveloperInformationComponent } from './components/developer-information/developer-information.component';
+import { TerminalComponent } from './components/terminal/terminal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DialogRickAndMortyCharacterDetailsComponent } from './components/dialog
     ButtonImageComponent,
     RickAndMortyScreenComponent,
     RickAndMortyCharacterComponent,
-    DialogRickAndMortyCharacterDetailsComponent
+    DialogRickAndMortyCharacterDetailsComponent,
+    DeveloperInformationComponent,
+    TerminalComponent
   ],
   imports: [
     CommonModule,

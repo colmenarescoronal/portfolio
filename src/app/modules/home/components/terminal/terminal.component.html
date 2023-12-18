@@ -1,0 +1,54 @@
+<div class="terminal-container">
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <pre>
+      <div class="numbers">
+        <span> 1</span>
+        <span> 2</span>
+        <span> 3</span>
+        <span> 4</span>
+        <span> 5</span>
+        <span> 6</span>
+        <span> 7</span>
+        <span> 8</span>
+        <span> 9</span>
+        <span>10</span>
+        <span>11</span>
+        <span>12</span>
+        <span>13</span>
+        <span>14</span>
+        <span>15</span>
+        <span>16</span>
+        <span>17</span>
+        <span>18</span>
+        <span>19</span>
+        <span>20</span>
+        <span>21</span>
+        <span>22</span>
+      </div>
+      <div class="terminal-body">
+        <code><span class="comment">{{'\<!-- Creating a card with buttons -->'}}</span>
+          <span class="comment">{{'\<!-- From the Angular Material documentation: https://material.angular.io/components/card/examples -->'}}</span>
+          <span class="tag">&lt;<span class="token">mat-card</span> <span class="class">class</span>=<span class="class-name">"example-card"</span>&gt;</span>
+            <span class="tag">&lt;<span class="token">mat-card-header</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">mat-card-title</span>&gt;</span>{{card?.cardTitle}}<span *ngIf="pointerTitle">|</span><span class="tag">&lt;/<span class="token">mat-card-title</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">mat-card-subtitle</span>&gt;</span>{{card?.cardSubTitle}}<span *ngIf="pointerSubTitle">|</span><span class="tag">&lt;/<span class="token">mat-card-subtitle</span>&gt;</span>
+            <span class="tag">&lt;/<span class="token">mat-card-header</span>&gt;</span>
+            <span class="tag">&lt;<span class="token">mat-card-content</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">p</span>&gt;</span>{{card?.paragraph1}}<span *ngIf="pointerParagraph1">|</span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">p</span>&gt;</span>{{card?.paragraph2}}<span *ngIf="pointerParagraph2">|</span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
+            <span class="tag">&lt;/<span class="token">mat-card-content</span>&gt;</span>
+            <span class="tag">&lt;<span class="token">mat-card-actions</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">button</span> <span class="class">mat-button</span>&gt;</span>LIKE<span class="tag">&lt;/<span class="token">button</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">button</span> <span class="class">mat-button</span>&gt;</span>SHARE<span class="tag">&lt;/<span class="token">button</span>&gt;</span>
+            <span class="tag">&lt;/<span class="token">mat-card-actions</span>&gt;</span>
+          <span class="tag">&lt;/<span class="token">mat-card</span>&gt;</span>
+        </code>
+      </div>
+    </pre>
+  </div>
+</div>
