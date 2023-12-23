@@ -52,6 +52,16 @@
         .class-name{
           color: #CE9178;
         }
+        .text-container{
+          position:relative;
+          .cursor{
+            position:absolute;
+            transform: translateY(3px);
+            width: 1px;
+            height: 15px;
+            background-color: #ffffff;
+          }
+        }
       }
     }
   }

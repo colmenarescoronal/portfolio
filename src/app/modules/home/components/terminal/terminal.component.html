@@ -35,12 +35,12 @@
           <span class="comment">{{'\<!-- From the Angular Material documentation: https://material.angular.io/components/card/examples -->'}}</span>
           <span class="tag">&lt;<span class="token">mat-card</span> <span class="class">class</span>=<span class="class-name">"example-card"</span>&gt;</span>
             <span class="tag">&lt;<span class="token">mat-card-header</span>&gt;</span>
-              <span class="tag">&lt;<span class="token">mat-card-title</span>&gt;</span>{{card?.cardTitle}}<span *ngIf="pointerTitle">|</span><span class="tag">&lt;/<span class="token">mat-card-title</span>&gt;</span>
-              <span class="tag">&lt;<span class="token">mat-card-subtitle</span>&gt;</span>{{card?.cardSubTitle}}<span *ngIf="pointerSubTitle">|</span><span class="tag">&lt;/<span class="token">mat-card-subtitle</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">mat-card-title</span>&gt;</span><span class="text-container">{{card?.cardTitle}}<span class="cursor" *ngIf="pointerTitle"></span></span><span class="tag">&lt;/<span class="token">mat-card-title</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">mat-card-subtitle</span>&gt;</span><span class="text-container">{{card?.cardSubTitle}}<span class="cursor" *ngIf="pointerSubTitle"></span></span><span class="tag">&lt;/<span class="token">mat-card-subtitle</span>&gt;</span>
             <span class="tag">&lt;/<span class="token">mat-card-header</span>&gt;</span>
             <span class="tag">&lt;<span class="token">mat-card-content</span>&gt;</span>
-              <span class="tag">&lt;<span class="token">p</span>&gt;</span>{{card?.paragraph1}}<span *ngIf="pointerParagraph1">|</span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
-              <span class="tag">&lt;<span class="token">p</span>&gt;</span>{{card?.paragraph2}}<span *ngIf="pointerParagraph2">|</span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">p</span>&gt;</span><span class="text-container">{{card?.paragraph1}}<span class="cursor" *ngIf="pointerParagraph1"></span></span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
+              <span class="tag">&lt;<span class="token">p</span>&gt;</span><span class="text-container">{{card?.paragraph2}}<span class="cursor" *ngIf="pointerParagraph2"></span></span><span class="tag">&lt;/<span class="token">p</span>&gt;</span>
             <span class="tag">&lt;/<span class="token">mat-card-content</span>&gt;</span>
             <span class="tag">&lt;<span class="token">mat-card-actions</span>&gt;</span>
               <span class="tag">&lt;<span class="token">button</span> <span class="class">mat-button</span>&gt;</span>LIKE<span class="tag">&lt;/<span class="token">button</span>&gt;</span>
@@ -51,4 +51,4 @@
       </div>
     </pre>
   </div>
-</div>
+</div><
