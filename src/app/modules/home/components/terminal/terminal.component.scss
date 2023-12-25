@@ -54,6 +54,7 @@
         }
         .text-container{
           position:relative;
+          height: fit-content !important;
           .cursor{
             position:absolute;
             bottom: 0px;
