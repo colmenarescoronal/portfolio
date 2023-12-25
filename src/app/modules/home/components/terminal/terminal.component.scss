@@ -56,9 +56,9 @@
           position:relative;
           .cursor{
             position:absolute;
-            transform: translateY(3px);
+            bottom: 0px;
             width: 1px;
-            height: 15px;
+            height: 14px;
             background-color: #ffffff;
           }
         }
