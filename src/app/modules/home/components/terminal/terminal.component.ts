@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class TerminalComponent implements OnInit {
 
   public card: any = {
-    cardTitle: 'Shibu Inu',
-    cardSubTitle: 'Dog Breed',
-    paragraph1: 'This card indeterminates progress bar.',
-    paragraph2: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.'
+    cardTitle: '',
+    cardSubTitle: '',
+    paragraph1: '',
+    paragraph2: ''
   }
 
   public pointerTitle: boolean = false;
@@ -66,7 +66,7 @@ export class TerminalComponent implements OnInit {
    this.pointerSubTitle = false;
    this.pointerParagraph1 = true;
    await this.deleteText('paragraph1');
-   await this.writeText('paragraph1','I am a fullstack developer passionate about technology and problem solving.');
+   await this.writeText('paragraph1','I am passionate about technology and problem solving.');
    this.pointerParagraph1 = false;
    this.pointerParagraph2 = true;
    await this.deleteText('paragraph2');
