@@ -66,11 +66,11 @@ export class TerminalComponent implements OnInit {
    this.pointerSubTitle = false;
    this.pointerParagraph1 = true;
    await this.deleteText('paragraph1');
-   await this.writeText('paragraph1','I am passionate about technology and problem solving.');
+   await this.writeText('paragraph1','I went from machine support to programmer and now I enjoy my profession much more.');
    this.pointerParagraph1 = false;
    this.pointerParagraph2 = true;
    await this.deleteText('paragraph2');
-   await this.writeText('paragraph2','When I\'m not coding I like to spend my time playing guitar, eating tacos and with the people I love ♥️.');
+   await this.writeText('paragraph2','When I\'m not coding I like to spend my time playing guitar, eating delicious food and with the people I love ♥️.');
    this.pointerParagraph2 = false;
   }
 
