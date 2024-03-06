@@ -58,11 +58,11 @@ export class TerminalComponent implements OnInit {
    this.pointerTitle = true;
    await this.sleep(1000)
    await this.deleteText('cardTitle');
-   await this.writeText('cardTitle','Luis Guillermo Colmenares');
+   await this.writeText('cardTitle','Luis Colmenares');
    this.pointerTitle = false;
    this.pointerSubTitle = true;
    await this.deleteText('cardSubTitle');
-   await this.writeText('cardSubTitle','Fullstack developer');
+   await this.writeText('cardSubTitle','Mexican developer');
    this.pointerSubTitle = false;
    this.pointerParagraph1 = true;
    await this.deleteText('paragraph1');
